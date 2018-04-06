@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Antic');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+
+
+h4{
+	font-family: 'New York Times', serif;
+	font-size: 10px;
+	text-align: right;
+	color: #990000;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 1px;
+
+}
+
+body{
+    margin-top: 0px;
+    text-align: center;
+    background-image: url(../images/dark_wall.png);
+    background-repeat: repeat;
+    height: 500px;
+    padding: 1px;
+
+}
+
+#header{
+    margin-top: 0px;
+    padding: 0px;
+    width: 1000px;
+    height: 0px;
+	text-align: right;
+	border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #990000;
+}
+
+#wrapper{
+
+    width: 850px;
+    margin: 90px auto 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+#navbar #contactInfo p{
+	width: 425px;
+	height: 10px;
+	float: right;
+	padding-top: 0px;
+}
+
+#navbar{
+    width:850px;
+    height: 90px;
+	background-color: #FFF;
+	border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #990000;
+		position: fixed;
+		z-index: 99999999;
+		top:0;
+}
+
+
+
+#navbar ul#nav{
+    padding:0px;
+    margin: 0px 0px 0px 0px;
+	padding-top: 10px;
+	text-transform: uppercase;
+	float: none;
+}
+
+ #navbar #nav li{
+    float: left;
+    display: inline;
+    list-style-type: none;
+}
+
+#nav a:link, #nav a:visited, #nav a:active {
+    font-family: 'Yanone Kaffeesatz:700', serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #990000;
+	letter-spacing: 2px;
+    display: block;
+    height: 21px;
+    padding: 2px 3px 5px 3px;
+	margin-left: 73px;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-right-color: #FFF; 
+	transition: all .3s ease;
+	border-radius: 5px;
+}
+
+
+#logo{
+	margin: 0px 0px 0px 0px;
+    padding: 0px;
+	width: 150px;
+	height: auto;
+	float:left;
+}
+#container{
+    width:850px;
+    margin:0px;
+    padding:0px;
+}
+
+#footer{
+    background-color: #FFF;
+    padding: 0px;
+    margin: 0px;
+    width: 850px;
+    clear: both;
+	border-top-color: #990000;
+	border-top-style: solid;
+	border-top-width: 5px; 
+}
+
+#footerLine li.rightLink a{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+#footerLinebar #footerLine li{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+	padding-right: 0px;
+    float: left;
+    display: inline;
+    list-style-type: none;
+}
+
+#footerLine{
+    padding:0px;
+    margin: 0px;
+	padding: 5px 0px 5px 0px;
+	text-transform: uppercase;
+	height: 18px;
+}
+
+#footerLine a:link, #footerLine a:active, #footerLine a:visited {
+    font-size: 10px;
+	color: #990000;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    display: block;
+    height: 10px;
+    padding: 4px;
+	margin-left: 4px;
+	margin-right: 55px;
+    border-right-width: 0px;
+}
+
+
+
+ul#footerLine{
+	border-bottom-style: solid;
+	border-bottom-color: #990000;
+	border-bottom-width: 5px;
+}
+
+#socialMedia{
+		margin-top: 30px;
+}
+
+
+/* stroke link when hovering */
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .9s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+
+
+
+
+
+
+/*ANIMATIONS*/
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*browser specific prefixes are not part of the CSS specifications, so not 
+accepting them is fine*/
+
+@-webkit-keyframes flip {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+    transform: perspective(400px) scale3d(.95, .95, .95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes flip {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+    transform: perspective(400px) scale3d(.95, .95, .95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+

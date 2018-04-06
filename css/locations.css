@@ -1,0 +1,98 @@
+
+p{
+    font-family: 'Antic:500', bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: #8B3A3A;
+	letter-spacing: .6px;
+	line-height: 30px;
+}
+
+#wrapper{
+	height: 1180px;
+}
+
+#container{
+	height: 1000px;
+}
+
+#calendar{
+	height: 450px;
+	width: 350px;
+	margin: 50px 0px 0px 0px;
+	border-radius: 20px;
+	float: right;
+	overflow: hidden;
+}
+
+#findLocation{
+	font-family: 'Dancing Script', cursive;
+	color: #990000;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 850px;
+}
+
+#times{
+	height: 444px;
+	width: 370px;
+	float: left;
+	margin: 50px 50px 50px 50px;
+}
+
+#hours {
+	font-family: 'Dancing Script', cursive;
+	color:#990000;
+	height:40px;
+	border-bottom-style: solid;
+	border-bottom-color: #990000;
+	margin: 0px 0px 20px 0px;
+}
+
+.week{
+	width: 170px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	text-align: left;
+}
+
+.time{
+	width: 190px;
+	float:right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	padding: 0px 0px 0px 0px;	
+	
+}
+
+#info{
+	font-family: 'Dancing Script', cursive;
+	color: #990000;
+	margin: 160px 0px 20px 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #990000;
+	height:40px;
+}
+
+.phone, .address{
+	margin: 10px 70px;
+}
+
+
+#iframe {
+	border: 0px;
+	
+}
+
+
+.fluidWrapper iframe{
+	width: 735px;
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+	display: inline;
+	border-radius: 5px;
+	padding: 0px;
+}
